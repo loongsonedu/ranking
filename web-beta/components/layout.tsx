@@ -14,6 +14,8 @@ export default function DefaultLayout({ children }: { children: React.ReactNode 
   return (
     <Layout
       headerProps={{
+        title: "龙芯开源技术开发者社区",
+        logo: "https://ssl.cdn.maodouketang.com/FsELfTn2KhwjVxKpABQGhyoR-IbH",
         extra: {
           customRender: <Nav />
         }
